@@ -16,4 +16,9 @@ Github is a centralized place where you host your repo (project) to collab or sh
     i. git add or git add . : git command followed by file name instruct git to track that file whereas git add . instruct to track everything including modified but not committed before commiting them to the local repo.
     k. git push: This command push any new commit made on locally saved repo to hosted repo somewhere like github.
 
-    
+## To understand how git workflow works:
+
+    a. In git you can create git branch where you can work/test on some feature before merging it with the main branch
+    b. git branch: This command shows the name of branches wrt to your main branch created
+    c. git checkout -b (custom name of the branch): This command helps to create branch and switch to that branch to work on it.
+    d. git checkout (main/or custom branch name): This command is used to switch between main or other custom branches.
